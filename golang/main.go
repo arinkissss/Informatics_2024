@@ -8,5 +8,5 @@ import (
 
 func main() {
   fmt.Println("Савельева Арина Денисовна")
-  lab4.RunLab4Task()
+  lab4.RunLab4()
 }

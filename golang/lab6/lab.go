@@ -18,7 +18,7 @@ func (t *Television) Display() {
 	channel := t.GetChannel()
 	fmt.Println("╔════════════════╗")
 	fmt.Println("║                ║")
-	fmt.Println("║   Канал", channel, "    ║\n")
+	fmt.Println("║   Канал", channel, "     ║")
 	fmt.Println("║                ║")
 	fmt.Println("╚════════════════╝")
 }

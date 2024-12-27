@@ -36,5 +36,5 @@ func (c *Clothes) getMaterial() string {
 	return c.material
 }
 func (c *Clothes) GetInfo() string {
-	return fmt.Sprintf("Название: %s, Цена: %.2f, Бренд: %s, Материал: %s,Сезон: %s", c.name, c.price, c.brand, c.material, c.season)
+	return fmt.Sprintf("Продается товар: %s, ценой: %.2f, бренда: %s, сделанной из: %s,для сезона: %s", c.name, c.price, c.brand, c.material, c.season)
 }

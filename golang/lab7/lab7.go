@@ -2,14 +2,6 @@ package lab7
 
 import "fmt"
 
-func CalculateProductsSum( products[] Product )float64 {
-	var sum float64 = 0
-	for _, product := range products {
-		sum += product.getPrice()
-	}
-	return sum
-}
-
 func RunLab7() {
 	potato := &Food{50.15, "картошка", "вкусвилл", 17}
 	lipstick := &Cosmetics{"помада", 1700, "Chanel"}

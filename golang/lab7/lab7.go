@@ -3,9 +3,9 @@ package lab7
 import "fmt"
 
 func RunLab7() {
-	cucumber := &Food{120, "огурцы", "пятерочка", 40}
-	mascara := &Cosmetics{"тушь", 500, "Beauty Bomb"}
-	jeans := &Clothes{"джинсы", 4999, "Colin`s", "хлопок", "все"}
+	cucumber := &Fastfood{120, "картошка фри", "бургер кинг", 400}
+	mascara := &Mascara{"тушь", 500, "Beauty Bomb"}
+	jeans := &Jeans{"джинсы", 4999, "Colin`s", "хлопок", "все"}
 	products := []Product{cucumber, mascara, jeans}
 	fmt.Println("Список продуктов")
 	fmt.Println("Стоимость покупок:", CalculateProductsSum(products), "рублей")
